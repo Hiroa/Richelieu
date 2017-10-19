@@ -1,1 +1,1 @@
-Richelieu
+Sprint name generator for node.js
