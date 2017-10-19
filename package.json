@@ -1,0 +1,16 @@
+{
+  "name": "sprint-name-generator",
+  "version": "1.0.0",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.15.3"
+  },
+  "scripts": {
+    "start": "node js/app.js"
+  },
+  "devDependencies": {
+    "eslint": "^4.1.1",
+    "eslint-config-airbnb-base": "^11.2.0",
+    "eslint-plugin-import": "^2.6.1"
+  }
+}
