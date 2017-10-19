@@ -14,7 +14,7 @@ module.exports = class Words {
 
   static loadDictionary(path) {
     return fs.readFileSync(path, { encoding: 'utf-8' })
-      .split('\r\n')
+      .split('\n')
       .reduce((results, word) => {
         if (results[0]) {
           results.push(word);
